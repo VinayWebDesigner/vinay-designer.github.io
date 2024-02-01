@@ -1,0 +1,251 @@
+@media screen and (max-width:1399px){
+    .navbar ul a{
+        padding: 10px 22px;
+    }
+    .navbar .uni-a a{
+        padding: 15px 20px !important;
+    }
+    .slider h1{
+        font-size: 40px;
+    }
+    .type-box{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:1199px){
+    .navbar ul a{
+        padding: 10px 13px;
+    }
+    .navbar .uni-a a{
+        padding: 15px 15px !important;
+    }
+    .features .feature-wrapper{
+        padding: 35px 20px 35px 20px;
+    }
+}
+@media screen and (max-width:991px){
+    .menu-bar{
+        display: block;
+        margin: 0px 12px;
+    }
+    header .navbar{
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        width: 40%;
+        background-color: #ECF0F3;
+        box-shadow: 10px 10px 19px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+        padding-top: 50px;
+        transition: left 0.3s ease-in-out;
+        left: -100%;
+    }
+    header .navbar ul{
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        justify-content: unset;
+    }
+    header .navbar ul li a{
+        margin-bottom: 10px;
+        display: inline-block;
+        width: 100%;
+    }
+    .navbar .uni-a{
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .closebtn{
+        display: block;
+    }
+    .pricing-wrapper{
+        margin-bottom: 3rem;
+    }
+    .resume .tabs-naver a{
+        padding: 25px 7px;
+        font-size: 14px;
+    }
+    .slider .row:first-child{
+        flex-direction: column-reverse;
+    }
+    .slider-image{
+        justify-content: center;
+    }
+    .slider-image .slider-img{
+        width: 100%;
+    }
+    .modal-img{
+        margin-bottom: 40px;
+    }
+    .modal .modal-content{
+        padding:60px 20px;
+    }
+    .modal-cont{
+        padding-left: 0px;
+    }
+    .resume-heading{
+        margin-top: 40px;
+    }
+    .resume .tabs-stager{
+        margin-top: 0px !important;
+    }
+}
+@media screen and (max-width:767px){
+    header .navbar{
+        width: 80%;
+    }
+    .pricing .tabs-nav{
+        flex-direction: column;
+    }
+    .pricing .tabs-nav li{
+        width: 100%;
+    }
+    .heading{
+        width: 100%;
+    }
+    .heading h2{
+        font-size: 22px;
+        text-align: center;
+    }
+    .features .feature-wrapper{
+        padding: 20px 12px 20px 12px;
+    }
+    .portfolio .portfolio-wrapper{
+        padding: 30px 12px;
+    }
+    .contact .contact-ditail{
+        padding: 30px 12px;
+    }
+    .contact .contact-form{
+        padding: 30px 20px;
+    }
+    .heading h3{
+        text-align: center;
+    }
+    .pricing a{
+        padding: 18px 10px;
+    }
+    .tabs-stage{
+        margin-top: 2rem;
+    }
+    .resume .tabs-naver{
+        flex-direction: column;
+    }
+    .resume .tabs-naver li{
+        width: 100%;
+    }
+    .resume .expelist-box .ex-box-head{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .resume .expelist-box .box-span{
+        margin-top: 20px;
+    }
+    .resume .box-heading h3{
+        line-height: 1.5;
+    }
+    .resume .ex-wrapper{
+        padding: 20px;
+    }
+    .resume .resume-heading h2{
+        font-size: 22px;
+    }
+    .resume .resume-heading{
+        margin-top: 50px;
+    }
+    .resume .tabs-stager{
+        margin-top: 0px !important;
+    }
+    .pricing .tabs-stage{
+        padding: 15px;
+    }
+    .pricing .price-heading h3{
+        font-size: 22px;
+    }
+    .pricing .pricing-tag{
+        width: fit-content;
+        margin-top: 20px;
+    }
+    .pricing .price-head{
+        flex-direction: column;
+    }
+    .price-body p{
+        font-size: 16px;
+    }
+    .price-ditails{
+        flex-direction: column;
+    }
+    .price-left{
+        margin-bottom: 20px;
+    }
+    .price-left ul{
+        width: 100%;
+    }
+    .price-body li{
+        font-size: 13px;
+    }
+    .price-body li i{
+        font-size: 16px;
+    }
+    .slider h1{
+        font-size: 25px;
+        line-height: 0;
+    }
+    .type-box{
+        font-size: 18px;
+        line-height: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .slider .slide-cont h3{
+        margin-bottom: 35px;
+    }
+    .slide-cont .row{
+        margin-top: 40px;
+    }
+    .type-box span.cursor{
+        height: 25px;
+    }
+    .slider h1{
+        margin-bottom: 25px;
+    }
+    .slid-icon-two{
+        margin-top: 40px;
+    }
+    .slid-icon h3{
+        margin-bottom: 15px !important;
+    }
+    .header-stick{
+        height: 70px;
+    }
+    .s-space{
+        padding: 80px 0px;
+    }
+    .modal .modal-content{
+        padding: 60px 12px;
+    }
+    .modal-cont h3{
+        font-size: 22px;
+    }
+    .modal-cont p{
+        font-size: 16px;
+    }
+    .modal .uni-a{
+        width: 100% !important;
+        justify-content: center !important;
+    }
+    .modal .uni-a a{
+        width: auto !important;
+    }
+    .modal.show .modal-dialog{
+        margin: 3rem 12px;
+    }
+}
+
+/* Modal  */
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 75%;
+    }
+}
